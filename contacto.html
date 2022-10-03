@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="css/libreria.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.svg" alt="la libreria, tienda online">
+
+        <nav>
+            <ul>
+                <li><a class="nav" href="">Catalogo</a></li>
+                <li><a class="nav" href="">Sobre nosotros</a></li>
+                <li><a class="nav" href="">Contactos</a></li>
+                <li><a class="nav" href="">Log in</a></li>
+            </ul>
+        </nav>
+
+        <form> 
+            <input type="text">
+            <button> buscar</button> 
+        </form>
+
+    </header>
+
+    <main>
+        <section id="contacto">
+            <h1>Contacto</h1>
+            <form action="">
+                <label> Tu nombre:
+                    <input type="text" name="nombre" placeholder="¿ Como te llamas" required>
+                    </label>
+                    <label>Provincia:
+                        <select name="provincia" required>
+                        <option value="">Elija una opcion</option>                                    
+                        <option value="Cordoba">Cordoba</option>
+                        <option value="Corrientes">Corrientes</option>
+                        </select>
+                     </label>
+                     <label> Email
+                        <input type="email" name="email" placeholder="Dejanos tu mail asi podemos contactarnos pronto" required>
+                    </label>
+                    <label>Mensaje
+                        <textarea name="Mensaje"></textarea>
+                    </label>
+                    <label>¿ Te gustaria recibir novedades por mail ?
+                        <input type="radio" class="opcion" name="newsletter" value="si" checked>si
+                        <input type="radio" class="opcion" name="newsletter" value="no">no</label>
+                    <label>¿ Cuales son tus generos favortios ?
+                        <input type="checkbox" class="opcion" name="genero 1" value="fantasia">fantasia
+                        <input type="checkbox" class="opcion" name="genero 2" value="comics">comics
+                        <input type="checkbox" class="opcion" name="genero 3" value="manga">manga
+                        <input type="checkbox" class="opcion" name="genero 4" value="ciencia ficcion">ciencia ficcion</label>
+                    <label> Antes de continuar ¿ aceptas nuestros terminos y condiciones ?
+                        <input type="checkbox" class="opcion" name="acepta" value="acepta" required> Si acepto los terminos y condiciones.
+
+                    </label>
+                    <button>Enviar</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <ul>
+           <li>Av.Rivadavia 1755 - CABA</li>
+           <li>/ 011-4444-6666</li>
+           <li>/ Contacto@Lalibreria.com.ar</li>
+        </ul>
+   </footer>
+    
+</body>
+</html>
